@@ -8,7 +8,7 @@ public class KartControl : MonoBehaviour
 
     float forwardAcc = 5f, reverseAcc = 2f, maxSpeed = 10f, turnIntensity = 70f;
 
-    float accInput, turnInput;
+    public float accInput, turnInput;
 
     // Start is called before the first frame update
     void Start()
