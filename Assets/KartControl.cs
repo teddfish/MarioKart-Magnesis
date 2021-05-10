@@ -8,7 +8,7 @@ public class KartControl : MonoBehaviour
 
     public GameObject magnet, theBullet;
 
-    float forwardAcc = 5f, reverseAcc = 2f, maxSpeed = 10f, turnIntensity = 70f;
+    public float forwardAcc = 5f, reverseAcc = 2f, maxSpeed = 10f, turnIntensity = 70f;
 
     public float accInput, turnInput;
 
@@ -53,7 +53,12 @@ public class KartControl : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Instantiate(theBullet, magnet.transform.position, Quaternion.identity);
+
             }
+        }
+        else if (!magnesisOn)
+        {
+            magnet.SetActive(false);
         }
     }
 

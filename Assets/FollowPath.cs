@@ -17,5 +17,8 @@ public class FollowPath : MonoBehaviour
         transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
         transform.position = new Vector3(transform.position.x, 0, transform.position.z);
         transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled);
+
+        //print(speed);
     }
+
 }
