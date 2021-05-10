@@ -15,11 +15,11 @@ C:/Users/5hw3t/Desktop/Unity CWC (first Bandar.Log game)/MarioKart Magnesis
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64416
+64234
 Successfully changed project path to: C:/Users/5hw3t/Desktop/Unity CWC (first Bandar.Log game)/MarioKart Magnesis
 C:/Users/5hw3t/Desktop/Unity CWC (first Bandar.Log game)/MarioKart Magnesis
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 958.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,194 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003524 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.916 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001348 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.382 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.2 MB.
+System memory in use after: 63.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1727.
+Total: 3.754000 ms (FindLiveObjects: 0.342200 ms CreateObjectMapping: 0.123200 ms MarkObjects: 3.179800 ms  DeleteObjects: 0.106600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Tyres_mat.mat
+  artifactKey: Guid(217097c8a2224034eb583e347884a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyres_mat.mat using Guid(217097c8a2224034eb583e347884a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c6af3e37e3871d0a645b70d5018e76') in 0.201601 seconds
+  Import took 0.205087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.699909 seconds.
+  path: Assets/Tyres_mat.mat
+  artifactKey: Guid(217097c8a2224034eb583e347884a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyres_mat.mat using Guid(217097c8a2224034eb583e347884a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c3b72a277b24f1513430781204b05c') in 0.020927 seconds
+  Import took 0.025327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.562140 seconds.
+  path: Assets/Body_mat.mat
+  artifactKey: Guid(217097c8a2224034eb583e347884a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Body_mat.mat using Guid(217097c8a2224034eb583e347884a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a945ce74c322bb27da94cf0330f002c') in 0.019745 seconds
+  Import took 0.023991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.111296 seconds.
+  path: Assets/Player1_mat.mat
+  artifactKey: Guid(87a111ba9d3603841901a46f0db01527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player1_mat.mat using Guid(87a111ba9d3603841901a46f0db01527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64589508bd5bd790ed9d9b975e5b75e4') in 0.023146 seconds
+  Import took 0.027295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.762326 seconds.
+  path: Assets/Body_mat.mat
+  artifactKey: Guid(217097c8a2224034eb583e347884a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Body_mat.mat using Guid(217097c8a2224034eb583e347884a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c9072401d49610bc868e5ab199bc30') in 0.019869 seconds
+  Import took 0.023154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Player1_mat.mat
+  artifactKey: Guid(87a111ba9d3603841901a46f0db01527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player1_mat.mat using Guid(87a111ba9d3603841901a46f0db01527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3f6a2a739f668a33082a76415a8dbd') in 0.026414 seconds
+  Import took 0.030207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Tyres_mat 1.mat
+  artifactKey: Guid(d21c337184b382c45a3bf585efb9ef21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tyres_mat 1.mat using Guid(d21c337184b382c45a3bf585efb9ef21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4038f880f1aef71dd7fee92f00b7c6cb') in 0.028025 seconds
+  Import took 0.031448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.488810 seconds.
+  path: Assets/Player2_mat.mat
+  artifactKey: Guid(87a111ba9d3603841901a46f0db01527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player2_mat.mat using Guid(87a111ba9d3603841901a46f0db01527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08e7761e0ad368fb60262b8a4cbb746') in 0.023690 seconds
+  Import took 0.027588 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000902 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1278 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.3 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1770.
+Total: 2.268100 ms (FindLiveObjects: 0.185000 ms CreateObjectMapping: 0.054600 ms MarkObjects: 1.926800 ms  DeleteObjects: 0.096500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1278 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.3 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1773.
+Total: 2.210600 ms (FindLiveObjects: 0.181800 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.851400 ms  DeleteObjects: 0.131300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000990 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1278 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.3 MB.
+System memory in use after: 66.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1776.
+Total: 2.283500 ms (FindLiveObjects: 0.178100 ms CreateObjectMapping: 0.043700 ms MarkObjects: 2.010100 ms  DeleteObjects: 0.050500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2863.948933 seconds.
+  path: Assets/Player2_mat.mat
+  artifactKey: Guid(87a111ba9d3603841901a46f0db01527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player2_mat.mat using Guid(87a111ba9d3603841901a46f0db01527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea902902627f6d0c0d8757bfb866994') in 0.072845 seconds
+  Import took 0.076204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Player1_mat 1.mat
+  artifactKey: Guid(8f668e3e29c02a34bbdb8e91c231178b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player1_mat 1.mat using Guid(8f668e3e29c02a34bbdb8e91c231178b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb8e4856b88b26b0b043c535010dd98') in 0.013350 seconds
+  Import took 0.015947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Body_mat.mat
+  artifactKey: Guid(217097c8a2224034eb583e347884a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Body_mat.mat using Guid(217097c8a2224034eb583e347884a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e493461332faf3c4fb31675e8950060b') in 0.013137 seconds
+  Import took 0.015801 seconds .
+
