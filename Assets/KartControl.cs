@@ -14,6 +14,8 @@ public class KartControl : MonoBehaviour
 
     public bool magnesisOn;
 
+    [SerializeField] ParticleSystem speedLines;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,7 +55,7 @@ public class KartControl : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Instantiate(theBullet, magnet.transform.position, Quaternion.identity);
-
+                speedLines.Play();
             }
         }
         else if (!magnesisOn)
