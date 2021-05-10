@@ -6,9 +6,13 @@ public class KartControl : MonoBehaviour
 {
     public Rigidbody rbSphere;
 
+    public GameObject magnet, theBullet;
+
     float forwardAcc = 5f, reverseAcc = 2f, maxSpeed = 10f, turnIntensity = 70f;
 
     public float accInput, turnInput;
+
+    public bool magnesisOn;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +39,22 @@ public class KartControl : MonoBehaviour
 
         transform.position = rbSphere.transform.position;
 
+        //print(magnesisOn);
+
+        //if magnesis gets turned on
+        //spawn an object right in front of our car 
+        //have it shoot projectiles when pressed space 
+        //that projectile should follow the path curve
+
+        if (magnesisOn)
+        {
+            magnet.SetActive(true);
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Instantiate(theBullet, magnet.transform.position, Quaternion.identity);
+            }
+        }
     }
 
     private void FixedUpdate()
