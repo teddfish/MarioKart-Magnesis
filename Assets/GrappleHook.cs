@@ -48,7 +48,8 @@ public class GrappleHook : MonoBehaviour
             GameObject.FindGameObjectWithTag("Player").GetComponent<KartControl>().forwardAcc = boostSpeed;
             GameObject.FindGameObjectWithTag("Player").GetComponent<KartControl>().turnIntensity = boostTurnIntensity;
             GameObject.FindGameObjectWithTag("Enemy").GetComponent<FollowPath>().speed = slowdownSpeed;
-         }
+            GameObject.FindGameObjectWithTag("Enemy").GetComponent<FollowPath>().smo.Play();
+        }
     }
 
     private void OnDestroy()

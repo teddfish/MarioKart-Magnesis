@@ -11,6 +11,8 @@ public class FollowPath : MonoBehaviour
     public float timeTaken = 15f;
     float distanceTravelled;
 
+    public ParticleSystem smo;
+
     private void Update()
     {
         distanceTravelled += Mathf.Lerp(speed, fastpeed, timeTaken) * Time.deltaTime;
