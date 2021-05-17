@@ -62,6 +62,8 @@ public class KartControl : MonoBehaviour
         {
             magnet.SetActive(false);
         }
+
+        print(accInput);
     }
 
     private void FixedUpdate()
